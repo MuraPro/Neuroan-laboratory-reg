@@ -41,7 +41,50 @@
 		</header>
 		<!-- header-end -->
 		<main class="main">
+			<section class="section__form">
+				<div class="section__form_body">
+					<div class="section__form_item-left">
+						<form action="#" method="POST" name="enter" enctype="multipart/form-data" class="left-form">
+							<h2>Login</h2>
+							<span>Username</span>
+							<input type="text" name="userLogin" value="">
+							<span>Password</span>
+							<input type="password" name="userPassword" value="">
+							<button type="submit" name="enterBtn">Login</button>
+						</form>
+					</div>
+					<div class="section__form_item-right">
+						<form action="#" method="post" name="registration" enctype="multipart/form-data"
+							class="right-form">
+							<h2>Registration</h2>
+							<span>Name*</span>
+							<input type="text" name="userName" value="">
+							<span>Phone Number</span>
+							<input type="tel" name="userPhone" value="">
+							<span>E-mail*</span>
+							<input type="email" name="userEmail" list="@yahoo.com" value="">
+							<select name="postfix" id="" class="email-list">
+								<option value="">@yahoo.com</option>
+								<option value="">@gmail.com</option>
+								<option value="">@icloud.com</option>
+							</select>
+							<span>I am</span>
+							<div class="radio">
+								<span>Type 1</span>
+								<span>Type 2</span>
+							</div>
+							<div class="form_fooetr">
+								<span>Username</span>
+								<input type="text" name="regName">
+								<span>Password</span>
+								<input type="password" name="regPassword">
+							</div>
+							<button type="submit" name="regBtn">Registration</button>
+						</form>
+					</div>
+				</div>
 
+			</section>
 		</main>
 		<footer class="footer">
 			<div class="footer__body">
